@@ -1,0 +1,61 @@
+:root {
+  --main-color: rgb(75, 44, 4);
+  --background-color: rgb(250, 235, 215);
+  --border: 1px solid gray;
+  --font-family: sans-serif;
+  --font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.timerContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -100px;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  border: 1px solid var(--background-color);
+  background-color: var(--background-color);
+  box-shadow: 10px 10px 11px -10px rgba(0, 0, 0, 0.75);
+}
+
+.timerTitle {
+  font-family: var(--font-family);
+  color: var(--main-color);
+  font-size: 25px;
+  font-weight: var(--font-weight);
+  margin: 25px 0 10px;
+}
+
+.timerWrapper {
+  font-family: var(--font-family);
+}
+
+.timeContainer {
+  color: var(--main-color);
+  font-size: 20px;
+  font-weight: var(--font-weight);
+  margin-bottom: 10px;
+}
+
+.startTimerButton {
+  font-size: 20px;
+  color: var(--main-color);
+  font-weight: var(--font-weight);
+  margin: 3px;
+  border: var(--border);
+  width: 80px;
+}
+
+.pauseTimerButton {
+  font-size: 20px;
+  color: var(--main-color);
+  font-weight: var(--font-weight);
+  margin: 3px;
+  border: var(--border);
+  width: 90px;
+}
